@@ -1,5 +1,5 @@
 import mitmproxy.http
-import re
+
 from mitmproxy.tools.main import mitmdump
 
 def response(flow: mitmproxy.http.HTTPFlow):
